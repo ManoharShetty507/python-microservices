@@ -6,7 +6,7 @@ app = Flask(__name__, static_folder='static')
 
 app.config['SECRET_KEY'] = 'KwsJpGfCDlcP77okfHAtpbo-F_c'
 app.config['WTF_CSRF_SECRET_KEY'] = 'yLnLKAJ3UuK8cEqmNucvLAuusjY'
-app.config['UPLOAD_FOLDER'] = 'C:/Users\Manohar Shetty/Desktop/Store-Website/4.frontend/static/images'
+app.config['UPLOAD_FOLDER'] = 'static/images'
 app.register_blueprint(blueprint)
 
 
