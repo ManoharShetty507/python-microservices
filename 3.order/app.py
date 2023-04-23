@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 app.config  ['SECRET_KEY'] = 'vZK7siKrV8BL46KsyAIPoQ'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config [ 'SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users\Manohar Shetty/Desktop/Store-Website/3.order/database/order.db'
+app.config [ 'SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./database/order.db'
 
 app.register_blueprint(order_blueprint)
 init_app(app)
